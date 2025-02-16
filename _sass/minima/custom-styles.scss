@@ -6,28 +6,19 @@
 }
 
 
-.container {
+.with-sidebar {
     display: flex;
+    flex-wrap: wrap;
+    gap: var(--s1);
+  }
+  
+.with-sidebar > :first-child {
+flex-grow: 1;
 }
 
-.sidebar {
-    width: 25%;
-    padding: 20px;
-    background-color: #f4f4f4;
+.with-sidebar > :last-child {
+flex-basis: 0;
+flex-grow: 999;
+min-inline-size: 50%;
 }
-
-.main-content {
-    width: 75%;
-    padding: 20px;
-}
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .sidebar,
-    .main-content {
-        width: 100%;
-    }
-}
+   
