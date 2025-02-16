@@ -1,5 +1,5 @@
 ---
-title: Welcome to my blog
+title: maneefesto
 ---
 
 Inseriamo un testo!
