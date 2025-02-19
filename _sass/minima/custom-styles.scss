@@ -37,13 +37,14 @@ body {
   }
 
     /* make all the content centered with pad on the left and right if screen is big enough */
-    .content {
+    .row {
         margin: 0 auto;
         padding: 0 20px;
         width: 80%;
     }
 
   
+    
 
 
     /* Clear floats after the columns */
@@ -72,7 +73,7 @@ body {
 
 
     @media screen and (max-width: 800px) {
-        .content {
+        .row {
             margin: 0 0;
             width: 100%;
         }
