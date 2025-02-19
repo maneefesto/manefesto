@@ -7,8 +7,12 @@
       <div class="footer-col">
         <ul class="contact-list">
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            <li>
+              <a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+              <a href="https://www.paypal.me/leobre1024" class="u-url" rel="payment">Donate</a>
+            </li>
           {%- endif %}
+           
         </ul>
       </div>
     </div>
