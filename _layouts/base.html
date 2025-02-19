@@ -5,19 +5,29 @@
 
   <body>
     
-    <main class="docs-page">
       <header class = "docs-header">
-
-          {%- assign default_paths = site.pages | map: "path" -%}
-          {%- assign page_paths = site.header_pages | default: default_paths -%}
-          {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
           <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
       </header>
       <div class="docs-main">
         
           {{ content }}
       </div>
-    </main>
+    
+
+    
+  <main class="row">
+    <div class="column">
+      <header class = "docs-header">
+        <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    </header>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+
+        {{ content }}
+ 
+    </div>
+  <main>
+
 
     {%- include footer.html -%}
 
