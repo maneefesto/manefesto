@@ -24,7 +24,7 @@
   }
 
   .post-content{
-    max-width: 800;
+    width: 80%;
   }
   
 
@@ -60,7 +60,7 @@
         width: 80%;
     }
 
-    @media screen and (min-width: 800px) {
+    @media screen and (max-width: 800px) {
         .content {
             margin: 0 0;
             width: 100%;
