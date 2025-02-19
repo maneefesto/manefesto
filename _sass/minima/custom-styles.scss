@@ -12,6 +12,7 @@
   /* Create two equal columns that floats next to each other */
   .column {
     float: left;
+    padding: 10px;
   }
 
   .left {
@@ -53,6 +54,12 @@
     .content {
         margin: 0 auto;
         padding: 0 20px;
-        max-width: 960px;
+        width: 80%;
+    }
+
+    @media screen and (min-width: 600px) {
+        .content {
+            width: 100%;
+        }
     }
 
