@@ -5,6 +5,15 @@
     font-family: $post-font-family;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+  }
+
 * {
     box-sizing: border-box;
   }
