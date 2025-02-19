@@ -34,7 +34,6 @@
 
   .sidebar {
     height: 100%;
-    position: fixed;
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     background-color: #111; /* Black */
@@ -57,7 +56,7 @@
         width: 80%;
     }
 
-    @media screen and (min-width: 600px) {
+    @media screen and (max-width: 600px) {
         .content {
             width: 100%;
         }
