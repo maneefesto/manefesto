@@ -56,8 +56,9 @@
         width: 80%;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (min-width: 800px) {
         .content {
+            margin: 0 0;
             width: 100%;
         }
     }
